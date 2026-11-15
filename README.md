@@ -1,20 +1,20 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pbolt-dev/.github/main/assets/pbolt-logo.svg" alt="pbolt logo" width="160" height="160" />
+  <img src="https://raw.githubusercontent.com/haspr-dev/.github/main/assets/haspr-logo.svg" alt="Haspr logo" width="160" height="160" />
 </p>
 
-<h1 align="center">pbolt-docker</h1>
+<h1 align="center">haspr-docker</h1>
 
 <p align="center">
-  <strong>Docker container configurations and images for the pbolt ecosystem.</strong>
+  <strong>Docker container configurations and images for the Haspr ecosystem.</strong>
 </p>
 
 ---
 
 ## ⚡ Overview
 
-**pbolt-docker** provides official container configurations and Dockerfiles to deploy and run **pbolt** community distributions with ease.
+**haspr-docker** provides official container configurations and Dockerfiles to deploy and run **Haspr** community distributions with ease.
 
-For more details on the pbolt ecosystem, visit [github.com/pbolt-dev](https://github.com/pbolt-dev).
+For more details on the Haspr ecosystem, visit [github.com/haspr-dev](https://github.com/haspr-dev) and [doc.haspr.dev](https://doc.haspr.dev).
 
 ---
 
@@ -147,8 +147,8 @@ Passbolt docker image provides several environment variables to configure differ
 | SECURITY_SALT | CakePHP security salt | **SALT**
 | SUBSCRIPTION_KEY | The base64-encoded subscription key for Passbolt PRO | null
 
-For more env variables supported please check [default.php](https://github.com/passbolt/passbolt_api/blob/master/config/default.php)
-and [app.default.php](https://github.com/passbolt/passbolt_api/blob/master/config/app.default.php)
+For more env variables supported please check [default.php](https://github.com/haspr-dev/haspr-api/blob/master/config/default.php)
+and [app.default.php](https://github.com/haspr-dev/haspr-api/blob/master/config/app.default.php)
 
 ### Subscription key precedence
 
@@ -262,4 +262,4 @@ PASSBOLT_FLAVOUR=ce PASSBOLT_COMPONENT=stable ROOTLESS=false bundle exec rake sp
 
 ## ⚖️ Trademark Notice
 
-*Passbolt is a registered trademark of Passbolt SA. **pbolt** is an independent community project and is not affiliated with, endorsed by, or sponsored by Passbolt SA.*
+*Passbolt is a registered trademark of Passbolt SA. **Haspr** is an independent community project and is not affiliated with, endorsed by, or sponsored by Passbolt SA.*
