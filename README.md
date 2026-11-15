@@ -1,24 +1,22 @@
-```
-       ____                  __          ____          .-.
-      / __ \____  _____ ____/ /_  ____  / / /_    .--./ /      _.---.,
-     / /_/ / __ `/ ___/ ___/ __ \/ __ \/ / __/     '-,  (__..-`       \
-    / ____/ /_/ (__  |__  ) /_/ / /_/ / / /_          \                |
-   /_/    \__,_/____/____/_,___/\____/_/\__/           `,.__.   ^___.-/
-                                                         `-./ .'...--`
-  The open source password manager for teams                `'
-  (c) 2023 Passbolt SA
-  https://www.passbolt.com
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/haspr-dev/.github/main/assets/haspr-logo.svg" alt="Haspr logo" width="160" height="160" />
+</p>
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/passbolt/passbolt.svg?style=flat-square)](https://hub.docker.com/r/passbolt/passbolt/tags/)
-[![GitHub release](https://img.shields.io/github/release/passbolt/passbolt_docker.svg?style=flat-square)](https://github.com/passbolt/passbolt_docker/releases)
-[![license](https://img.shields.io/github/license/passbolt/passbolt_docker.svg?style=flat-square)](https://github.com/passbolt/passbolt_docker/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/passbolt.svg?style=social&label=Follow)](https://twitter.com/passbolt)
+<h1 align="center">haspr-docker</h1>
 
-# What is passbolt?
+<p align="center">
+  <strong>Docker container configurations and images for the Haspr ecosystem.</strong>
+</p>
 
-Passbolt is a free and open source password manager that allows team members to
-store and share credentials securely.
+---
+
+## ⚡ Overview
+
+**haspr-docker** provides official container configurations and Dockerfiles to deploy and run **Haspr** community distributions with ease.
+
+For more details on the Haspr ecosystem, visit [github.com/haspr-dev](https://github.com/haspr-dev) and [doc.haspr.dev](https://doc.haspr.dev).
+
+---
 
 # Requirements
 
@@ -149,8 +147,8 @@ Passbolt docker image provides several environment variables to configure differ
 | SECURITY_SALT | CakePHP security salt | **SALT**
 | SUBSCRIPTION_KEY | The base64-encoded subscription key for Passbolt PRO | null
 
-For more env variables supported please check [default.php](https://github.com/passbolt/passbolt_api/blob/master/config/default.php)
-and [app.default.php](https://github.com/passbolt/passbolt_api/blob/master/config/app.default.php)
+For more env variables supported please check [default.php](https://github.com/haspr-dev/haspr-api/blob/master/config/default.php)
+and [app.default.php](https://github.com/haspr-dev/haspr-api/blob/master/config/app.default.php)
 
 ### Subscription key precedence
 
@@ -259,3 +257,9 @@ If you would like to setup Passbolt for development purposes, please follow the 
 ```bash
 PASSBOLT_FLAVOUR=ce PASSBOLT_COMPONENT=stable ROOTLESS=false bundle exec rake spec
 ```
+
+---
+
+## ⚖️ Trademark Notice
+
+*Passbolt is a registered trademark of Passbolt SA. **Haspr** is an independent community project and is not affiliated with, endorsed by, or sponsored by Passbolt SA.*
